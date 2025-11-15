@@ -23,4 +23,6 @@ html section where the language is defined as english.\
 Additionally, the metadata section has it set that the default character set is 
 UTF-8 like usual and name as viewport to define the visible area for the page, 
 with the width being that of the observing device and a normal scaling.\
-I couldn't come up with a better title, so I made the title "Web Development Final Project".
+I couldn't come up with a better title, so I made the title "Web Development Final Project".\
+I am going to have "Navbar" be in a header, "About", "Previous Work", and 
+"Projects" in the main section, and "Contact" in a footer.
