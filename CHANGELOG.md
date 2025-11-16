@@ -1,8 +1,14 @@
+```
+Ryan Matthews
+Caterina Paun
+CS463 Intro to Web Dev
+November 1, 2025
+```
 # Log for WebDev Final Project
-## Name: Ryan Matthews
-## Class: CS463 Intro to Web Dev
-## Old Website: <https://rhinomat.github.io/>
-## New Website: <https://rhinomat.github.io/WebDevFinalProject/>
+## Links
+### Repository: <https://github.com/rhinomat/WebDevFinalProject>
+### Old Website: <https://rhinomat.github.io/>
+### New Website: <https://rhinomat.github.io/WebDevFinalProject/>
 ## Journal 11/1/25:
 This new website is a revised and improved version of my current website.
 ## Journal 11/13/25:
@@ -26,3 +32,13 @@ with the width being that of the observing device and a normal scaling.\
 I couldn't come up with a better title, so I made the title "Web Development Final Project".\
 I am going to have "Navbar" be in a header, "About", "Previous Work", and 
 "Projects" in the main section, and "Contact" in a footer.
+## Journal 11/16/2025
+For ease of control on dimensionality for components of the site, I am going to use bootstrap.\
+I also think I want to try and make the favicon for my site.\
+I will probably use a tool like [Aseprite](https://www.aseprite.org/)\
+I made it with a simple cube-like design. I wanted the main borderlines to be 
+grey or black adjacent and then have a blue adjacent, green adjacent, and red 
+adjacent as the main colors. I also made the dimensions 16px by 16px. I will 
+keep it as the favicon for now unless I determine it needs to be shifted out 
+for something more interesting visually.\
+For my navbar, I based it off the navbar that bootstrap uses in its navbar example for "Always expand" but only really in the syntax for classes, just so that I can go in later and manipulate aspects specifically in color and font. <https://getbootstrap.com/docs/5.3/examples/>
