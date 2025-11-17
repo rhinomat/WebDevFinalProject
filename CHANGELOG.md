@@ -44,5 +44,6 @@ for something more interesting visually.\
 For my navbar, I based it off the navbar that bootstrap uses in its navbar example but only really in the syntax for classes, just so that I can go in later and manipulate aspects specifically in color and font. <https://getbootstrap.com/docs/5.3/examples/>\
 I also decided to implement WebGL into my website, but then switched over to a framework for it called ThreeJS, which is a lot more optimized and I have more conceptual understanding of its high level.\
 The only problem i had in the past with it is getting npm to work with github pages, but i finally found a video for it.\
-<https://threejs.org/>
-<https://www.youtube.com/watch?v=ygdbUEsAYyQ>
+<https://threejs.org/>\
+<https://www.youtube.com/watch?v=ygdbUEsAYyQ>\
+I put together the About and Experience sections using the base information from my old website and then put some basic formatting that i am going to have to touch up later.\
