@@ -41,4 +41,8 @@ grey or black adjacent and then have a blue adjacent, green adjacent, and red
 adjacent as the main colors. I also made the dimensions 16px by 16px. I will 
 keep it as the favicon for now unless I determine it needs to be shifted out 
 for something more interesting visually.\
-For my navbar, I based it off the navbar that bootstrap uses in its navbar example for "Always expand" but only really in the syntax for classes, just so that I can go in later and manipulate aspects specifically in color and font. <https://getbootstrap.com/docs/5.3/examples/>
+For my navbar, I based it off the navbar that bootstrap uses in its navbar example but only really in the syntax for classes, just so that I can go in later and manipulate aspects specifically in color and font. <https://getbootstrap.com/docs/5.3/examples/>\
+I also decided to implement WebGL into my website, but then switched over to a framework for it called ThreeJS, which is a lot more optimized and I have more conceptual understanding of its high level.\
+The only problem i had in the past with it is getting npm to work with github pages, but i finally found a video for it.\
+<https://threejs.org/>
+<https://www.youtube.com/watch?v=ygdbUEsAYyQ>

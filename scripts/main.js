@@ -1,11 +1,17 @@
 import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 
 main();
 function main() {
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
+  spinCube('#webglheader1');
+  spinCube('#webglheader2');
+}
 
-  const canvas = document.querySelector('#webglheader');
+function spinCube(id_placement) {
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 1000);
+
+  const canvas = document.querySelector(id_placement);
 
   // Renderer uses the existing canvas
   const renderer = new THREE.WebGLRenderer({
@@ -21,9 +27,19 @@ function main() {
   camera.aspect = width / height;
   camera.updateProjectionMatrix();
 
-  const geometry = new THREE.BoxGeometry(1, 1, 1);
-  const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-  const cube = new THREE.Mesh(geometry, material);
+  const cubeGeometry = new THREE.BoxGeometry(1, 1, 1);
+  const edgeGeometry = new THREE.EdgesGeometry(cubeGeometry);
+
+  const r = Math.random();
+  const g = Math.random();
+  const b = Math.random();
+  const randomColor = new THREE.Color(r, g, b);
+
+  const cubeMaterial = new THREE.MeshBasicMaterial({ color: randomColor });
+  const lineMaterial = new THREE.LineBasicMaterial({ color: THREE.Color.NAMES.black });
+  const cubeEdges = new THREE.LineSegments(edgeGeometry, lineMaterial);
+  const cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
+  cube.add(cubeEdges);
   scene.add(cube);
 
   camera.position.z = 3;

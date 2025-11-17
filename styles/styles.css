@@ -1,0 +1,28 @@
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+h1 {
+    font-size: 0px;
+}
+h2, .nav-link {
+    font-weight: 500;
+}
+.section-top {
+    scroll-margin-top: 4.5rem;
+    padding-top: 6rem;
+}
+.about-heading {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    z-index: 1000;
+}
+.heading-bg-dark {
+    padding: 0 0.25rem;
+    background-color: #23213d;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
