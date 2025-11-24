@@ -61,3 +61,4 @@ Additionally, I inserted a connection link for google fonts for \
 "Science Gothic" so that it would have a cool, stylized font thats not the one \
 that bootstrap wants to use. I also brought in the Font Awesome Icon Library for\
 icons when needed.\
+I went back to other sections and tried to fix 2 problems: I fixed the Previous Work section and fixed the spacing so the information wasnt edge to edge and improperly formatted, also the size disparagement with the About section title compared to other titles.\
