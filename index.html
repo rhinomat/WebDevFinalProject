@@ -7,6 +7,13 @@
     <link rel="icon" href="assets/Favicon-1.ico">
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">    
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="fontawesome-free-7.1.0-web/css/all.min.css"
+    />
     <script src="scripts/main.js" type="module"></script>
     <title>Web Development Final Project</title>
 </head>
@@ -71,8 +78,8 @@
           </div>
         </section>
         <!--Previous Work-->
-        <section class="container-fluid section p-0 previous-work">
-          <div id="#PrevWork" class="row p-3 container mx-auto section-top text-center">
+        <section class="container-fluid section p-0 PrevWork">
+          <div id="PrevWork" class="row p-3 container mx-auto section-top text-center">
             <h2 class="previous-work-heading"><span>Previous Work</span></h2>
           </div>
           <div>
@@ -111,12 +118,178 @@
           </div>
         </section>
         <!--Projects-->
-        <section class="container-fluid section p-0 projects">
-          <div id="#Projects" class="row p-3 container mx-auto section-top">
-            <h2 class="projects-heading">
-              <span>Projects</span>
-            </h2>
-          </div>
+        <section class="container-fluid section p-0 Projects">
+            <div id="Projects" class="container my-5">
+                <h2 class="mb-4">Projects I Have Worked On</h2>
+                <div class="row g-4">
+
+                    <!-- Project Card -->
+                    <div class="col-12">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title h5">The Future of Mail</h3>
+                                <p class="text-muted mb-1">Category: Game Programming</p>
+                                <p class="text-muted mb-3">Language: Rust</p>
+
+                                <h6>Description</h6>
+                                <ul>
+                                    <li>Built using the Bevy Rust game engine</li>
+                                    <li>All 3D models designed in Blender</li>
+                                    <li>Robot delivers mail in a circular city</li>
+                                    <li>Fail when colliding with buildings or the edge</li>
+                                    <li>Uses .GLB models</li>
+                                </ul>
+
+                                <a href="https://github.com/rhinomat/The-Future-of-Mail"
+                                   class="btn btn-dark mt-2" target="_blank">
+                                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card -->
+                    <div class="col-12">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Programming Language Interpreter</h3>
+                                <p class="text-muted mb-1">Category: Programming Language Concepts</p>
+                                <p class="text-muted mb-3">Language: Python</p>
+
+                                <h6>Description</h6>
+                                <ul>
+                                    <li>Used Dataclasses and Lark parsing library</li>
+                                    <li>Built a miniature programming language</li>
+                                    <li>Supports arithmetic, loops, functions, if/else</li>
+                                    <li>Added string splicing and replacement features</li>
+                                </ul>
+
+                                <a href="https://github.com/rhinomat/Programming-Languages-Interpreter-Project"
+                                   class="btn btn-dark mt-2" target="_blank">
+                                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card -->
+                    <div class="col-12">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Medieval Graphics Project</h3>
+                                <p class="text-muted mb-1">Category: Computer Graphics</p>
+                                <p class="text-muted mb-3">Language: Python</p>
+
+                                <h6>Description</h6>
+                                <ul>
+                                    <li>OpenGL + Pygame simulation</li>
+                                    <li>Models designed in BlockBench → Blender</li>
+                                    <li>Uses .OBJ models</li>
+                                    <li>Animations are fully mathematical</li>
+                                    <li>Team project (2 people)</li>
+                                </ul>
+
+                                <a href="https://github.com/rhinomat/Medieval-Graphics"
+                                   class="btn btn-dark mt-2" target="_blank">
+                                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card -->
+                    <div class="col-12">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Fractals Portfolio</h3>
+                                <p class="text-muted mb-1">Category: Computer Graphics</p>
+                                <p class="text-muted mb-3">Language: Python</p>
+
+                                <h6>Description</h6>
+                                <ul>
+                                    <li>Created fractal visualizations in Python</li>
+                                    <li>Exports BMP → PNG/GIF</li>
+                                    <li>Built on class-provided core files</li>
+                                    <li>Originally coded in C, then ported</li>
+                                </ul>
+
+                                <a href="https://github.com/rhinomat/Fractals-Portfolio"
+                                   class="btn btn-dark mt-2" target="_blank">
+                                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card -->
+                    <div class="col-12">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title h5">CheckListDataBase</h3>
+                                <p class="text-muted mb-1">Category: Database Management, Utilities</p>
+                                <p class="text-muted mb-3">Language: Python + SQL</p>
+
+                                <h6>Description</h6>
+                                <ul>
+                                    <li>Two programs solving the same checklist task</li>
+                                    <li>SQLite + TUI version</li>
+                                    <li>Tkinter GUI version</li>
+                                    <li>Supports marking, editing, deleting items</li>
+                                </ul>
+
+                                <a href="https://github.com/rhinomat/CheckListDataBase"
+                                   class="btn btn-dark mt-2" target="_blank">
+                                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card -->
+                    <div class="col-12">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title h5">rhinomat.github.io</h3>
+                                <p class="text-muted mb-1">Category: Web Development</p>
+                                <p class="text-muted mb-3">Languages: HTML, CSS</p>
+
+                                <h6>Description</h6>
+                                <ul>
+                                    <li>Built using vanilla HTML/CSS</li>
+                                    <li>Future plan: integrate JavaScript + WebGL</li>
+                                    <li>Portfolio site for public presentation</li>
+                                    <li>Originally planned to use Next.js</li>
+                                </ul>
+
+                                <a href="https://github.com/rhinomat/rhinomat.github.io"
+                                   class="btn btn-dark mt-2" target="_blank">
+                                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card -->
+                    <div class="col-12">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Restaurant Safety App</h3>
+                                <p class="text-muted mb-1">Category: Web / Mobile Application</p>
+                                <p class="text-muted mb-3">Programming Language: HTML, CSS, JS, TS</p>
+
+                                <h6>Description</h6>
+                                <ul>
+                                    <li>Built using react native, deployed with Express</li>
+                                </ul>
+
+                                <a href="https://github.com/Safeli-F25/f25-capstone-team-index"
+                                   class="btn btn-dark mt-2" target="_blank">
+                                    <i class="fa-brands fa-github-alt me-2"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>

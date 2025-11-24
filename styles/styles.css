@@ -2,6 +2,7 @@ body {
     overflow-x: hidden;
     box-sizing: border-box;
     padding-top: 70px;
+    font-family: "Science Gothic", sans-serif !important;
 }
 h1 {
     font-size: 0px;

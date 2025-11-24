@@ -6,8 +6,11 @@ personal website, which is the aim partially.
 - [Bootstrap](https://getbootstrap.com/)
 - [Web3 Forms](https://web3forms.com/)
 - [Google Fonts](https://fonts.google.com/)
+- [ThreeJS](https://threejs.org/)
+- [Font Awesome](https://fontawesome.com/)
 ## Tools used for making content
 - [Aseprite](https://www.aseprite.org/) (For Favicon Graphics)
+- [Blender](https://www.blender.org/) (For Models)
 ## Features
 ## Aspects utilized from outside of class
 ## Deployment
